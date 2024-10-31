@@ -1,7 +1,7 @@
 # Maui.Auto.Car
-You can now draw your UI centered at cross platform level, for android auto and apple car play.
+You can now draw your UI centered at a cross-platform level, for Android Auto and Apple CarPlay.
 
-Based in this amazing tutoriual from Christian Strydom
+Based on this amazing tutorial from Christian Strydom
 
 https://github.com/christian-strydom/MauiForCars
 
@@ -10,7 +10,7 @@ https://github.com/christian-strydom/MauiForCars
 
 ## Setup
 
-In the MauiProgram, you need to add `AddMauiAutoCar` and define the startup page.
+In the MauiProgram, you must add `AddMauiAutoCar` and define the startup page.
 
 ```csharp
     public static class MauiProgram
@@ -57,3 +57,17 @@ Example:
   </application>
 </manifest>
 ```
+
+-------------
+
+## Environment
+
+Here you will find some tips to debug and run the Android Auto and Apple Car Play applications.
+
+### Android Auto Emulator
+
+https://developer.android.com/training/cars/testing/dhu?hl=pt-br
+
+### Apple Car Play Simulator
+
+https://medium.com/@paereson/how-to-open-carplay-simulator-on-real-device-in-xcode-14-6a8399564b8b
